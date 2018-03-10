@@ -3,8 +3,10 @@ console.log("main.js is connected!");
 let searchButton = document.querySelector(".search");
 
 searchButton.addEventListener("click", function() {
-  console.log("clicked!");
   event.preventDefault();
+  let zipCode = document.querySelector(".zip").value;
+  console.log(zipCode);
+  console.log("clicked!");
 });
 /*
 

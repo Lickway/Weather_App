@@ -17,7 +17,7 @@ Key Name
 3. Open Postman to check out the data you're working with & to verify that your key works. Make a GET requrest to the following URL in postman, adding your API key to the end.
 
 ```
-http://api.openweathermap.org/data/2.5/weather?q=10025,us?units=imperial&appid=[PUT YOUR API KEY HERE]
+http://api.openweathermap.org/data/2.5/weather?q=New+York&units=imperial&appid=[PUT YOUR API KEY HERE]
 ```
 
 #### You'll be working in the [weather directory](./weather/), in `index.html`, `src/main.js`, and `style/style.css`.
