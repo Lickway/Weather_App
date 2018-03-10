@@ -1,5 +1,11 @@
-console.log('main.js is connected!');
+console.log("main.js is connected!");
 
+let searchButton = document.querySelector(".search");
+
+searchButton.addEventListener("click", function() {
+  console.log("clicked!");
+  event.preventDefault();
+});
 /*
 
 Here's an overview of the steps you'll follow to get your app to work...
