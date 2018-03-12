@@ -4,30 +4,33 @@
   width: 100%;
   background: pink;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   flex-direction: column;
+}
+.formContainer {
 }
 .currentTemp {
   width: 100px;
+  font-size: 50px;
   height: 100px;
-  background: hotpink;
+  /* background: hotpink; */
 }
 .cityName {
   width: 100px;
   height: 100px;
-  background: #f2b8ed;
+  /* background: #f2b8ed; */
 }
 .minTemp {
   width: 100px;
   height: 100px;
-  background: #ff44e3;
+  /* background: #ff44e3; */
 }
 .maxTemp {
   width: 100px;
   height: 100px;
-  background: #ff44a7;
+  /* background: #ff44a7; */
 }
-. .hide-me {
+.hide-me {
   visibility: hidden;
   opacity: 0;
   transform: scale(0.75);

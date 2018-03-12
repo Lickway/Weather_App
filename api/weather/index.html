@@ -10,23 +10,20 @@
 </head>
 <body>
   <div class="container">
-    <div class="currentTemp">Current Temp Is</div>
-    <div class="cityName">City</div>
-    <div class="minTemp">min temp</div>
-    <div class="maxTemp">max temp</div>
-    <form class="inputAndSearch">
-      Enter Zip Code<br>
-      <input class="zip" type="number"/>
-      <button class='search'>Search</button>
-    </form>
+
+    <div class="formContainer">
+      <form class="inputAndSearch">
+        Enter Zip Code<br>
+        <input class="zip" type="number"/>
+        <button class='search'>Search</button>
+      </form>
+    </div>
+
+    <div class="cityName"></div>
+    <div class="currentTemp"></div>
+    <div class="minTemp"></div>
+    <div class="maxTemp"></div>
   </div>
-  <!--
-    HTML NEEDS
-    - input box
-    - submit button
-    - an element with a unique class, id, or data-attribute
-      for each of the weather metrics you want to put on the page.
-   -->
   <script src='./src/main.js'></script>
 </body>
 </html>
